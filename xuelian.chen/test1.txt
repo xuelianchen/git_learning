@@ -1,14 +1,6 @@
 test1 line1
-<<<<<<< HEAD
-test1 modify by acc 
-test1 line3
-add by acc 
-=======
 test1 modify by xuelain
 test1 line3
-add by xuelian
->>>>>>> 26afc56808986ba8ccb54ad09717f9d7f9f03ebd
-test1 line5
 test1 line6
 test1 line7
 test1 line8
