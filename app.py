@@ -19,6 +19,11 @@ def default():
 def hello():
     return 'Hello World'
 
+@app.route('/add')
+def add():
+    return 'Hello add content'
+
 if __name__ == '__main__':
     app.debug = True # 设置调试模式，生产模式的时候要关掉debug
+    print("update ...")
     app.run()
