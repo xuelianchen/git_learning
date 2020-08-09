@@ -12,6 +12,10 @@ def index():
     return content
 
 @app.route('/')
+def default():
+    return 'there is no content'
+
+@app.route('/hello')
 def hello():
     return 'Hello World'
 
